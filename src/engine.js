@@ -162,7 +162,7 @@ function Draw(ctx)
     game.Draw(ctx);
 
     // draw the box2d physics debug world
-    //DrawWorldDebug(ctx);
+    DrawWorldDebug(ctx);
 
     if (pause)
     {
